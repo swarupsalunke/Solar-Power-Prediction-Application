@@ -15,7 +15,11 @@ DATA_FILE = BASE_DIR / "data" / "processed_solar_weather_dataset.csv"
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=[
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://solar-power-prediction-application-h6so95n56.vercel.app",
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

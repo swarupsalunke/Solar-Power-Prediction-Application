@@ -1,0 +1,17 @@
+{
+    "model": "RandomForestRegressor",
+    "training_rows": 1200,
+    "validation_rows": 240,
+    "training_start": "2024-01-01 00:00:00",
+    "training_end": "2024-02-19 23:00:00",
+    "validation_start": "2024-02-20 00:00:00",
+    "validation_end": "2024-02-29 23:00:00",
+    "best_parameters": {
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "n_estimators": 200
+    },
+    "validation_MAE": 16.507391700505316,
+    "validation_RMSE": 24.637547634994046,
+    "validation_R2": 0.9767949068284006
+}

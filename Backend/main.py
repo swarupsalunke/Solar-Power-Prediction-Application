@@ -19,6 +19,7 @@ app.add_middleware(
     "http://localhost:5173",
     "http://localhost:3000",
     "https://solar-power-prediction-application-h6so95n56.vercel.app",
+    "https://solar-power-prediction-application.vercel.app",
 ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -28,6 +29,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
+
     return {"message": "Solar Power Prediction API is running"}
 
 

@@ -1,5 +1,5 @@
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://solar-power-prediction-application.onrender.com"
 
 async function fetchJson(endpoint) {
     const response = await fetch(`${API_URL}${endpoint}`);
